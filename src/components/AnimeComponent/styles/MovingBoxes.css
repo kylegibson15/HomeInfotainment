@@ -1,0 +1,15 @@
+.size {
+  width: 50px;
+  height: 50px;
+  top: 70px;
+  left: 70px;
+  background-color: green;
+  position: absolute;
+}
+
+#box {
+  background-color: lightgreen;
+  border: solid darkorange 3px;
+  margin-left: -3px;
+  margin-top: -3px;
+}

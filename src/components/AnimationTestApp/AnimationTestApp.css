@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.card {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(200,200, 200, 0.5);
+}
+
+/* Top Row */
+.top-row {
+  top: 20%;
+}
+
+.skimap {
+  background-color: red;
+  left: 10%;
+}
+
+.news {
+  background-color: black;
+  color: white;
+  left: 33%;
+}
+
+.food {
+  background-color: orange;
+  right: 33%;
+}
+
+.hikes {
+  background-color: blueviolet;
+  right: 10%;
+}
+
+/* Bottom Row */
+.bottom-row {
+  bottom: 20%;
+}
+
+.home {
+  background-color: brown;
+  left: 10%;
+}
+
+.events {
+  background-color: yellow;
+  left: 33%;
+}
+
+.something {
+  right: 33%;
+}
+
+.other {
+  background-color: cadetblue;
+  right: 10%;
+}
