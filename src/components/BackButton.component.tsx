@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './BackButton.css';
+import styles from '../styles';
 
 function BackButton() {
   return (
-    <div id="back-button">
+    <div className={styles.backButton}>
       <Link to="/">
         <h4>Back</h4>
       </Link>

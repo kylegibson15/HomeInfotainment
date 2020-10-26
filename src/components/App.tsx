@@ -5,15 +5,15 @@ import {
   Route
 } from "react-router-dom";
 
-import { BackButton } from './BackButton';
-import { Main } from './Main';
-import { Page, Hikes } from './Page';
+import BackButton from './BackButton.component';
+import { DefaultPage as Page, HikesPage, MainPage, SkiMap } from './Pages';
 
-import './App.css';
+import styles from '../styles';
+import { IRoute } from '../state/interfaces';
 
-const routes = [
-  { path: '/skimap', name: 'Ski Map', Component: Page },
-  { path: '/hikes', name: 'Hikes', Component: Hikes },
+const routes: IRoute[] = [
+  { path: '/skimap', name: 'Ski Map', Component: SkiMap },
+  { path: '/hikes', name: 'Hikes', Component: HikesPage },
   { path: '/events', name: 'Events', Component: Page },
   { path: '/weather', name: 'Weather', Component: Page },
   { path: '/news', name: 'News', Component: Page },
@@ -25,10 +25,10 @@ const routes = [
 function App() {
   return (
     <Router>
-      <div id="app">
+      <div className={styles.app}>
         <Switch>
           <Route exact path="/">
-            <Main routes={routes} />
+            <MainPage routes={routes} />
           </Route>
           <Route path="*">
             {routes.map(({ path, name, Component }) =>

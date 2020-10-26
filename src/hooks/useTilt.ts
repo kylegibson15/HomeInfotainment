@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 
-interface IState {
-  rect?: any;
+interface ITiltState {
+  rect?: DOMRect;
   mouseX?: number;
   mouseY?: number;
 }
 
-export function useTilt(active: boolean | null) {
+export default function useTilt(active: boolean | null) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export function useTilt(active: boolean | null) {
       return;
     }
 
-    const state: IState = {
+    const state: ITiltState = {
       rect: undefined,
       mouseX: undefined,
       mouseY: undefined
