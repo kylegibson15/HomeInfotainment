@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HomeInfotainment/static/css/main.6c5cc8a7.chunk.css",
+    "main.js": "/HomeInfotainment/static/js/main.32379a16.chunk.js",
+    "main.js.map": "/HomeInfotainment/static/js/main.32379a16.chunk.js.map",
+    "runtime-main.js": "/HomeInfotainment/static/js/runtime-main.7872ba4a.js",
+    "runtime-main.js.map": "/HomeInfotainment/static/js/runtime-main.7872ba4a.js.map",
+    "static/js/2.2b834d5b.chunk.js": "/HomeInfotainment/static/js/2.2b834d5b.chunk.js",
+    "static/js/2.2b834d5b.chunk.js.map": "/HomeInfotainment/static/js/2.2b834d5b.chunk.js.map",
+    "index.html": "/HomeInfotainment/index.html",
+    "precache-manifest.aac902de3bfcd2ea9b7230717309af36.js": "/HomeInfotainment/precache-manifest.aac902de3bfcd2ea9b7230717309af36.js",
+    "service-worker.js": "/HomeInfotainment/service-worker.js",
+    "static/css/main.6c5cc8a7.chunk.css.map": "/HomeInfotainment/static/css/main.6c5cc8a7.chunk.css.map",
+    "static/js/2.2b834d5b.chunk.js.LICENSE.txt": "/HomeInfotainment/static/js/2.2b834d5b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7872ba4a.js",
+    "static/js/2.2b834d5b.chunk.js",
+    "static/css/main.6c5cc8a7.chunk.css",
+    "static/js/main.32379a16.chunk.js"
+  ]
+}
